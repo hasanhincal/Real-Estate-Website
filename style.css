@@ -7,8 +7,14 @@
   list-style-type: none;
   text-decoration: none;
 }
+/* body default özellik ata */
+body::before{
+  display: block;
+  content:'';
+  height: 76px;
+}
 .w-100-height{
-  height: 90vh;
+  height: 87vh;
   width: 100%;
 }
 .carousel-item::before{
